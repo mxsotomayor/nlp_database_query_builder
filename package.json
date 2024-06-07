@@ -1,0 +1,27 @@
+{
+  "name": "nlp_database_query_builder",
+  "version": "1.0.0",
+  "description": "A NLP text to ready to use database query, for Open Search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "opensearch",
+    "llm",
+    "generative ai",
+    "openai"
+  ],
+  "author": "Maxwell Sotomayor Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.1.1",
+    "@opensearch-project/opensearch": "^2.9.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.2.5",
+    "nodemon": "^3.1.3"
+  }
+}
